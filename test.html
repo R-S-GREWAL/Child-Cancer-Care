@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Online Test of Symptoms</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap" rel="stylesheet">
+    
+<link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body id="test">
+    <span>
+        <img id="logo" src="newlogo.png">
+       <center><h1 id="title">Child Cancer Care</h1></center> 
+      </span>
+      <br>
+      <nav class="navbar-inverse">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#" class="mb-4">Home</a>
+          
+      </div>
+      
+      
+      <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+              <li><a href="intro.html">What is Child Cancer?</a></li>
+              <li><a href="stats.html">Statistics</a></li>
+              <li><a href="causes.html">Causes</a></li>
+              <li><a href="symptoms.html">Symptoms</a></li>
+              <li><a href="ngo.html">Cancer Care Centres</a></li>
+              <li><a href="aware.html">Awareness</a></li>
+              <li><a href="faqs.html">FAQ's</a></li>
+          </ul>
+      </div>
+      
+      </nav>
+      <center>
+   <h1 id="Ltest1">The following tests are to check the symptoms for the most common childhood Cancers :</h1> 
+    <h3 id="Ltest2">Note: Your Symptoms can be different from the common symptoms of the following cancers, It is advised not to trust the following tests completely.</h3>
+        <h2>Leukemia</h2><button data-toggle="collapse" data-target="#test1">Click Me</button>
+        <div id="test1" class="collapse">
+            <h3>Do you get frequent fevers and chills?</h3>
+            <br>
+            <input type="radio" id="yes1" name="Q1" value="yes">
+            <label for="yes1">Yes</label><br>
+            <input type="radio" id="no1" name="Q1" value="no">
+            <label for="no1">No</label><br>
+            <h3>Have you suddenly lost weight without trying?</h3>
+            <br>
+            <input type="radio" id="yes2" name="Q2" value="yes">
+            <label for="yes2">Yes</label><br>
+            <input type="radio" id="no2" name="Q2" value="no">
+            <label for="no2">No</label><br>
+            <h3>Do you get Frequent and severe infections?</h3>
+            <br>
+            <input type="radio" id="yes3" name="Q3" value="yes">
+            <label for="yes3">Yes</label><br>
+            <input type="radio" id="no3" name="Q3" value="no">
+            <label for="no3">No</label><br>
+            <h3>Are you experiencing excessive sweating, especially at night?</h3>
+            <br>
+            <input type="radio" id="yes4" name="Q4" value="yes">
+            <label for="yes4">Yes</label><br>
+            <input type="radio" id="no4" name="Q4" value="no">
+            <label for="no4">No</label><br>
+            <h3>Are you experiencing frequent bleeding and bruising?</h3>
+            <br>
+            <input type="radio" id="yes5" name="Q5" value="yes">
+            <label for="yes5">Yes</label><br>
+            <input type="radio" id="no5" name="Q5" value="no">
+            <label for="no5">No</label><br>
+        </div>
+        <button onclick="test1()">Done</button>
+        <label id="result1"></label>
+    </div>
+    
+        <h2 id="L21">Brain Tumor</h2>
+        <button data-toggle="collapse" data-target="#test2">Click Me</button>
+        <div id="test2" class="collapse">
+            <h3>Are you having Eye problems, such as blurry vision, seeing double or losing sight on the sides of your vision ?</h3>
+            <br>
+            <input type="radio" id="test2yes1" name="Q1">
+            <label for="test2yes1">Yes</label><br>
+            <input type="radio" id="test2no1" name="Q1">
+            <label for="test2no1">No</label><br>
+            <h3>Are you lately having trouble in Maintaining Balance?</h3>
+            <br>
+            <input type="radio" id="test2yes2" name="Q2">
+            <label for="test2yes2">Yes</label><br>
+            <input type="radio" id="test2no2" name="Q2">
+            <label for="test2no2">No</label><br>
+            <h3>Do headaches happen more often and seem more severe?</h3>
+            <br>
+            <input type="radio" id="test2yes3" name="Q3">
+            <label for="test2yes3">Yes</label><br>
+            <input type="radio" id="test2no3" name="Q3">
+            <label for="test2no3">No</label><br>
+            <h3>Do you have memory problems, like having trouble in remembering things?</h3>
+            <br>
+            <input type="radio" id="test2yes4" name="Q4" value="yes">
+            <label for="test2yes4">Yes</label><br>
+            <input type="radio" id="test2no4" name="Q4" value="no">
+            <label for="test2no4">No</label><br>
+            <h3>Are you experiencing problems in speech?</h3>
+            <br>
+            <input type="radio" id="test2yes5" name="Q5" value="yes">
+            <label for="test2yes5">Yes</label><br>
+            <input type="radio" id="test2no5" name="Q5" value="no">
+            <label for="test2no5">No</label><br>
+            <h3>Do you always feel tired without an obvious reason?</h3>
+            <br>
+            <input type="radio" id="test2yes6" name="Q6" value="yes">
+            <label for="test2yes6">Yes</label><br>
+            <input type="radio" id="test2no6" name="Q6" value="no">
+            <label for="test2no6">No</label><br>
+            <h3>Do you experience Losing movement in an arm or a leg?</h3>
+            <br>
+            <input type="radio" id="test2yes7" name="Q7" value="yes">
+            <label for="test2yes7">Yes</label><br>
+            <input type="radio" id="test2no7" name="Q7" value="no">
+            <label for="test2no7">No</label><br>
+        </div>
+    <button onclick="test2()">Done</button>
+    <label id="result2"></label>
+</center>
+<br><br><br>
+</body>
+</html>

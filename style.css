@@ -1,0 +1,327 @@
+body
+{
+background-image: linear-gradient(to right , #FDF7E0,  #a3b3aa );
+background-size: cover;
+font-family: 'Signika', sans-serif;
+}
+.accordion-section .panel-default > .panel-heading {
+    border: 0;
+    background: #f4f4f4;
+    padding: 0;
+}
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+.accordion-section .panel-default .panel-title a:after {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 3rem;
+    content: "\f106";
+    color: #1f7de2;
+    float: right;
+    margin-top: -12px;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\f107";
+}
+.accordion-section .panel-default .panel-body {
+    font-size: 1.2rem;
+}
+#logo
+{
+    width: 12%;
+    height: auto;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+#title
+{
+    margin-top: -4%;
+    font-size:50px;
+    color: rgb(203, 146, 2);
+}
+#intro1
+{
+    width: 30%;
+    height:auto;
+    margin-top: 5%;
+    margin-left: 5%;
+    border-radius: 30%;
+}
+#title1
+{
+    margin-top: -13%;
+    margin-left: 57%;
+    color: rgb(203, 146, 2);
+}
+#introP
+{
+    margin-top: 2%;
+    margin-left: 40%;
+}
+#Istats1
+{
+    width: 80%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 1%; 
+}
+#statshome
+{
+    background-color: #a3b3aa;
+    width: 20.5%;
+    height: auto;
+    margin-top: 15%;
+    margin-left: 1%; 
+    border-radius: 20%; 
+}
+#Isymptoms1
+{
+    width: 78%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 2%; 
+     
+}
+#symptomshome
+{
+    background-color: #FDF7E0;
+    width: 20.5%;
+    height: auto;
+    margin-top: 15%;
+    margin-left: 5%; 
+    border-radius: 20%; 
+}
+#Iaware1
+{
+    width: 70%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 5%; 
+     
+}
+#awarehome
+{
+    background-color: #a3b3aa;
+    width: 21%;
+    height: auto;
+    margin-top: 15%;
+    margin-left: 5%; 
+    border-radius: 20%; 
+}
+#Ifaq1
+{
+    width: 80%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 5%; 
+     
+}
+#faqhome
+{
+    background-color: #FDF7E0;
+    width: 21%;
+    height: auto;
+    margin-top: 15%;
+    margin-left: 5%; 
+    border-radius: 20%; 
+}
+#awarehome
+{
+    background-color: #a3b3aa;
+    width: 21%;
+    height: auto;
+    margin-top: 15%;
+    margin-left: 5%; 
+    border-radius: 20%; 
+}
+#causeshome
+{
+    background:linear-gradient(to left ,#a3b3aa,#FDF7E0);
+    width: 50%;
+    height: auto;
+    margin-top:50%;
+    border-radius: 40%; 
+}
+#title2
+{
+    color: rgb(203, 146, 2);
+}
+#ngoshome
+{
+    background:linear-gradient(to right ,#a3b3aa,#FDF7E0);
+    width: 55%;
+    height: auto;
+    margin-top:5%;
+    border-radius: 40%; 
+}
+#title3
+{
+    color: rgb(203, 146, 2);
+}
+#intro
+{
+    background:linear-gradient(to left ,#ecacdd,#aaecf5); 
+}
+#defintro
+{
+    background:linear-gradient(to right ,#ecacdd,#aaecf5); 
+    margin-top: 2%;
+    width: 60%;
+    height: auto;
+    border-radius: 40%;
+}
+#titleintro
+{
+    background:linear-gradient(to right ,#a9efd7,#f2e4ac); 
+    margin-top: 2%;
+    width: 50%;
+    height: auto;
+    border-radius: 40%;
+}
+#stats
+{
+    background:linear-gradient(to left ,#a9efd7,#f2e4ac); 
+}
+#introPoints
+{
+    background:linear-gradient(to right ,#a9efd7,#f2e4ac); 
+    margin-top: 5%;
+    width: 60%;
+    height: auto;
+    border-radius: 2%;
+}
+#causes
+{
+    background:linear-gradient(to top left ,#e3acf2,#c0fba3,#e3acf2); 
+}
+#causes1
+{
+    background:linear-gradient(to right ,#c0fba3,#e3acf2); 
+    margin-top: 2%;
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+}
+#causes2
+{
+    background:linear-gradient(to right ,#c0fba3,#e3acf2); 
+    margin-top: 5%;
+    width: 20%;
+    height: auto;
+    border-radius: 30%;
+}
+#prevention1
+{
+    background:linear-gradient(to right ,#c0fba3,#e3acf2); 
+    margin-top: 5%;
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+}
+#causes2
+{
+    background:linear-gradient(to right ,#c0fba3,#e3acf2); 
+    margin-top: 3%;
+    width: 99%;
+    height: auto;
+    border-radius: 25%;
+}
+#causes3
+{
+    background:linear-gradient(to right ,#c0fba3,#e3acf2); 
+    margin-top: 3%;
+    width: 80%;
+    height: auto;
+    border-radius: 55%;
+}
+#prevention2
+{
+    background:linear-gradient(to left ,#c0fba3,#e3acf2); 
+    margin-top: 5%;
+    width: 99%;
+    height: auto;
+    border-radius: 30%;
+}
+#prevention3
+{
+    background:linear-gradient(to left ,#c0fba3,#e3acf2); 
+    margin-top: 3%;
+    width: 85%;
+    height: auto;
+    border-radius: 55%;
+}
+#symptoms
+{
+    background:linear-gradient(to top left,#e6cb88,#a5eaf3,#e6cb88); 
+}
+#symptoms1
+{
+    background:linear-gradient(to left ,#e6cb88,#a5eaf3); 
+    margin-top: 2%;
+    width: 45%;
+    height: auto;
+    border-radius: 50%;
+}
+#symptoms2
+{
+    background:linear-gradient(to left ,#e6cb88,#a5eaf3); 
+    margin-top: 2%;
+    width: 80%;
+    height: auto;
+    border-radius: 15%;
+}
+#symptoms3
+{
+    background:linear-gradient(to right ,#e6cb88,#a5eaf3); 
+    margin-top: 2%;
+    margin-left: 30%;
+    width: 40%;
+    height: auto;
+    border-radius: 35%;
+}
+#symptoms4
+{
+    background:linear-gradient(to right ,#e6cb88,#a5eaf3); 
+    margin-top: 2%;
+    width: 40%;
+    height: auto;
+    border-radius: 5%;
+    border:#1f7de2;
+    border-width: 5px;
+    border-style: dashed;
+}
+#test
+{
+    background:linear-gradient(to top left,#f8d7d7,#f8f7bf,#f8d7d7); 
+}
+#test1
+{
+    margin-left: 0%;
+}
+#date
+{
+    background:linear-gradient(to top left,#edc0e8,#f8f7bf,#edc0e8); 
+    width: 10%;
+}
+#aware2
+{
+    background:linear-gradient(to right ,#edc0e8,#f8f7bf); 
+    margin-top: 2%;
+    width: 40%;
+    height: auto;
+    border-radius: 5%;
+    border:#1f7de2;
+    border-width: 5px;
+    border-style: dashed;
+}
+#aware
+{
+    background:linear-gradient(to top left,#bcacfa,#ecc4c4,#bcacfa); 
+}
+#faq
+{
+    background:linear-gradient(to top left,#c6f5e3,#e5ecc4,#c6f5e3); 
+}

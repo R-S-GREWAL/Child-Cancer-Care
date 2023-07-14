@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap" rel="stylesheet">
+    
+<link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+
+</head>
+
+<body>
+<span>
+  <img id="logo" src="newlogo.png">
+ <center><h1 id="title">Child Cancer Care</h1></center> 
+</span>
+<br>
+<nav class="navbar-inverse">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#" class="mb-4">Home</a>
+    
+</div>
+
+
+<div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav">
+        <li><a href="intro.html">What is Child Cancer?</a></li>
+        <li><a href="stats.html">Statistics</a></li>
+        <li><a href="causes.html">Causes</a></li>
+        <li><a href="symptoms.html">Symptoms</a></li>
+        <li><a href="ngo.html">Cancer Care Centres</a></li>
+        <li><a href="aware.html">Awareness</a></li>
+        <li><a href="faqs.html">FAQ's</a></li>
+    </ul>
+</div>
+
+</nav>
+
+    <span id="home1">
+            
+            <img id="intro1" src="intro.jpg">
+            
+            <h1 id="title1">What is Childhood Cancer?</h1>
+            <h3 id="introP">Childhood Cancer is a term used to describe the cancers which occur during the childhood or adolescence period of a Person. Childhood Cancers are rare and can be different from Adult Cancers in terms of Treatment, Growth and how they Spread.
+                <a class="articles" href="intro.html" target="_blank">Read More...</a>
+            </h3>
+         
+            </span>
+<span id="home2"><center>
+    <div class="col-md-4" id="statshome">
+        <div class="blog-item rounded bg-white shadow-dark wow fadeIn" data-wow-delay="200ms" style="visibility: visible; animation-delay: 200ms; animation-name: fadeIn;">
+          <div class="thumb">
+            <a href="stats.html">
+              <img src="stats.jpg" alt="blog-title" id="Istats1">
+            </a>
+          </div>
+          <div class="details">
+            <h4 class="my-0 title">
+                <a href="stats.html">Statistics</a>
+            </h4>
+            <ul class="list-inline meta mb-0 mt-2">
+              <li class="list-inline-item">Learn about the cancer cases in your country...</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4" id="symptomshome">
+        <div class="blog-item rounded bg-white shadow-dark wow fadeIn" data-wow-delay="200ms" style="visibility: visible; animation-delay: 200ms; animation-name: fadeIn;">
+          <div class="thumb">
+            <a href="symptoms.html">
+              <img src="symptoms.png" alt="blog-title" id="Isymptoms1">
+            </a>
+          </div>
+          <div class="details">
+            <h4 class="my-0 title">
+                <a href="symptoms.html">Symptoms</a>
+            </h4>
+            <ul class="list-inline meta mb-0 mt-2">
+              <li class="list-inline-item">You can Check for symptoms by an online test...</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4" id="awarehome">
+        <div class="blog-item rounded bg-white shadow-dark wow fadeIn" data-wow-delay="200ms" style="visibility: visible; animation-delay: 200ms; animation-name: fadeIn;">
+          <div class="thumb">
+            <a href="aware.html">
+              <img src="awareness.jpg" alt="blog-title" id="Iaware1">
+            </a>
+          </div>
+          <div class="details">
+            <h4 class="my-0 title">
+                <a href="aware.html">Awareness</a>
+            </h4>
+            <ul class="list-inline meta mb-0 mt-2">
+              <li class="list-inline-item">Be Aware and spread Awareness in your community...</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+  <div class="col-md-4" id="faqhome">
+    <div class="blog-item rounded bg-white shadow-dark wow fadeIn" data-wow-delay="200ms" style="visibility: visible; animation-delay: 200ms; animation-name: fadeIn;">
+      <div class="thumb">
+        <a href="faqs.html">
+          <img src="faq.png" alt="blog-title" id="Ifaq1">
+        </a>
+      </div>
+      <div class="details">
+        <h4 class="my-0 title">
+            <a href="faqs.html">FAQs</a>
+        </h4>
+        <ul class="list-inline meta mb-0 mt-2">
+          <li class="list-inline-item">Look out for the Frequently Asked Questions about childhood cancer...</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</center>
+</span>
+
+
+<center>
+<div onclick="causes()" id="causeshome">
+  <br><br>
+  <h1 id="title2">What are the Causes of Childhood Cancer?</h1><br>
+  <h3>Childhood Cancer can be caused to anyone but at some point can be prevented too...<br>Click to know more</h3>
+<br><br>
+</div>
+</center>
+  <center>
+    <div id="ngoshome">
+      <br><br>
+<h1 id="title3">Regional Cancer Centres and NGO's near you...</h2><br>
+<h3>Regional Cancer Centres (RCCs) are cancer care hospitals<br> and research institutes in India run by the funding of the<br>Government of India and the respective state governments.
+<br><a class="articles" href="ngos.html" target="_blank">Learn More...</a>
+<br><br>
+</h4>
+</div></center>
+</div>
+<br><br>
+
+
+</body>
+</html>
